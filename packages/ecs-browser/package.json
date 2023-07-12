@@ -1,6 +1,6 @@
 {
   "name": "@latticexyz/ecs-browser",
-  "version": "1.42.0",
+  "version": "1.42.1-next.0",
   "description": "Component Browser for RECS",
   "repository": {
     "type": "git",

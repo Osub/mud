@@ -1,5 +1,16 @@
 # Change Log
 
+## 1.42.1-next.0
+
+### Patch Changes
+
+- [#1109](https://github.com/latticexyz/mud/pull/1109) [`e019c776`](https://github.com/latticexyz/mud/commit/e019c77619f0ace6b7ee01f6ce96498446895934) Thanks [@Kooshaba](https://github.com/Kooshaba)! - Remove devEmit function when sending network events from SyncWorker because they can't be serialized across the web worker boundary.
+
+- Updated dependencies [[`904fd7d4`](https://github.com/latticexyz/mud/commit/904fd7d4ee06a86e481e3e02fd5744224376d0c9), [`66cc35a8`](https://github.com/latticexyz/mud/commit/66cc35a8ccb21c50a1882d6c741dd045acd8bc11), [`086be4ef`](https://github.com/latticexyz/mud/commit/086be4ef4f3c1ecb3eac0e9554d7d4eb64531fc2)]:
+  - @latticexyz/store@1.43.0-next.0
+  - @latticexyz/services@1.42.1-next.0
+  - @latticexyz/world@1.42.1-next.0
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
